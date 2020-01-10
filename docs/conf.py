@@ -21,14 +21,13 @@ project = 'foo'
 copyright = '2020, Bruno'
 author = 'Bruno'
 
+extensions = ["breathe"]
+
+breathe_default_project = "foo"
+breathe_projects = {"foo": "xml"}
 
 # -- General configuration ---------------------------------------------------
 
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
-extensions = [
-]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
